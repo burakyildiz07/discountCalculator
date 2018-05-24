@@ -34,7 +34,7 @@ class DiscountCalculator{
             $totalPrice +=$item->price;
         }
 
-        // Outlet Item Asc Sorting
+        // Not Outlet Item Asc Sorting
         sort($notOutletItemPrice);
 
         for ($i=0;$i < $freeItem;$i++){
